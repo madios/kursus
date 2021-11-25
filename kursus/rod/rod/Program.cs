@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace rod
@@ -7,8 +8,20 @@ namespace rod
     {
         static void Main(string[] args)
         {
+
+            // nøgle = int, værdi = string
+            System.Collections.Generic.Dictionary<string, int> lst = new Dictionary<string, int>();
+            lst.Add("a", 1324);
+            lst.Add("b", 23);
+            lst.Add("c", 113);
+            foreach (var item in lst)
+            {
+                Console.WriteLine($"{item}, {item.Key}, {item.Value}");
+            }
+            int v = lst["b"];
+            Console.WriteLine($"v = {v}");
+
             Console.WriteLine("Hello World!");
-            var ge  = Test();
 
             Metode1("a", 10, true, "DK");
             Metode1(alder: 10, erSmart: true, land: "DK", navn: "a");
@@ -27,9 +40,8 @@ namespace rod
             testTuble.peter = 10;
             testTuble.String = "per";
 
-            double dReturn = test();
-            int ireturn = test1();
         }
+    }
 
         static (int v1, bool v2) Test()
         {
@@ -62,14 +74,7 @@ namespace rod
 
         }
 
-        static int test2()
-        {
-            return 3;
-        }
-        static double test2()
-        {
-            return 0.3;
-        }
-
     }
+
+
 }

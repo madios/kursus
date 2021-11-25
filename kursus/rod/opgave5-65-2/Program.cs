@@ -6,6 +6,9 @@ namespace opgave5_65_2
     {
         static void Main(string[] args)
         {
+
+
+
             Console.WriteLine("Hello World!");
 
             try
