@@ -55,6 +55,8 @@ namespace opgave5_65_2
                 catch (Exception ex)
                 {
                     Console.WriteLine(ex.ToString());
+
+
                     throw;
                 }
                 // mangler kode
