@@ -1,0 +1,16 @@
+C:\kursus\github\kursus\rod\rod\bin\Debug\net5.0\rod.exe
+C:\kursus\github\kursus\rod\rod\bin\Debug\net5.0\rod.deps.json
+C:\kursus\github\kursus\rod\rod\bin\Debug\net5.0\rod.runtimeconfig.json
+C:\kursus\github\kursus\rod\rod\bin\Debug\net5.0\rod.runtimeconfig.dev.json
+C:\kursus\github\kursus\rod\rod\bin\Debug\net5.0\rod.dll
+C:\kursus\github\kursus\rod\rod\bin\Debug\net5.0\ref\rod.dll
+C:\kursus\github\kursus\rod\rod\bin\Debug\net5.0\rod.pdb
+C:\kursus\github\kursus\rod\rod\obj\Debug\net5.0\rod.csproj.AssemblyReference.cache
+C:\kursus\github\kursus\rod\rod\obj\Debug\net5.0\rod.GeneratedMSBuildEditorConfig.editorconfig
+C:\kursus\github\kursus\rod\rod\obj\Debug\net5.0\rod.AssemblyInfoInputs.cache
+C:\kursus\github\kursus\rod\rod\obj\Debug\net5.0\rod.AssemblyInfo.cs
+C:\kursus\github\kursus\rod\rod\obj\Debug\net5.0\rod.csproj.CoreCompileInputs.cache
+C:\kursus\github\kursus\rod\rod\obj\Debug\net5.0\rod.dll
+C:\kursus\github\kursus\rod\rod\obj\Debug\net5.0\ref\rod.dll
+C:\kursus\github\kursus\rod\rod\obj\Debug\net5.0\rod.pdb
+C:\kursus\github\kursus\rod\rod\obj\Debug\net5.0\rod.genruntimeconfig.cache
