@@ -14,7 +14,7 @@ namespace opgave8_90_5_AutomatiskeEgenskaber_terning_
             Console.WriteLine(t1.Værdi);
             t1.skriv();
 
-            terning.
+            //terning.
 
         }
     }

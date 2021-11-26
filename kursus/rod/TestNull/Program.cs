@@ -18,8 +18,8 @@ namespace TestNull
 
             //var a = person.Navn.ToUpper();
 
-            string? a; //nullable<bool> f; kan være null
-            Console.WriteLine(  a);
+            //string? a; //nullable<bool> f; kan være null
+            //Console.WriteLine(  a);
         }
     }
 

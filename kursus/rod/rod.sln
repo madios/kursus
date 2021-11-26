@@ -3,27 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rod", "rod\rod.csproj", "{E4DD4354-F7BF-4C92-9DF6-B455293DB1B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave4-60-5-RekursiveMetoder", "opgave4-60-5-RekursiveMetoder\opgave4-60-5-RekursiveMetoder.csproj", "{8B16AA97-E0A7-4A7F-9295-D1E4D327444C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave4-60-5-RekursiveMetoder", "opgave4-60-5-RekursiveMetoder\opgave4-60-5-RekursiveMetoder.csproj", "{8B16AA97-E0A7-4A7F-9295-D1E4D327444C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave5-65-2", "opgave5-65-2\opgave5-65-2.csproj", "{EA527C2E-7623-4AD1-BDB5-6A80DF4AC9CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave5-65-2", "opgave5-65-2\opgave5-65-2.csproj", "{EA527C2E-7623-4AD1-BDB5-6A80DF4AC9CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opgave6-80-3-klasseDerReplæsentereEtBægerAFTerninger", "Opgave6-80-3-klasseDerReplæsentereEtBægerAFTerninger\Opgave6-80-3-klasseDerReplæsentereEtBægerAFTerninger.csproj", "{7366C825-D10F-414A-A44E-E64CF2F013DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgave6-80-3-klasseDerReplæsentereEtBægerAFTerninger", "Opgave6-80-3-klasseDerReplæsentereEtBægerAFTerninger\Opgave6-80-3-klasseDerReplæsentereEtBægerAFTerninger.csproj", "{7366C825-D10F-414A-A44E-E64CF2F013DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "callbackEvent", "callbackEvent\callbackEvent.csproj", "{18508024-B031-48FA-BECF-C82355893EC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "callbackEvent", "callbackEvent\callbackEvent.csproj", "{18508024-B031-48FA-BECF-C82355893EC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestNull", "TestNull\TestNull.csproj", "{125FBD83-C05E-4A68-A125-E742DF7DDD34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNull", "TestNull\TestNull.csproj", "{125FBD83-C05E-4A68-A125-E742DF7DDD34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opgave7-90-1-TerningMedEgenskaber", "Opgave7-90-1-TerningMedEgenskaber\Opgave7-90-1-TerningMedEgenskaber.csproj", "{578144D2-DD6C-431B-BC9C-163BEC0DC279}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgave7-90-1-TerningMedEgenskaber", "Opgave7-90-1-TerningMedEgenskaber\Opgave7-90-1-TerningMedEgenskaber.csproj", "{578144D2-DD6C-431B-BC9C-163BEC0DC279}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave8-90-5-AutomatiskeEgenskaber(terning)", "opgave8-90-5-AutomatiskeEgenskaber(terning)\opgave8-90-5-AutomatiskeEgenskaber(terning).csproj", "{2FA7FEB3-07A5-4A4F-BFC1-F40AE2BE00A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave8-90-5-AutomatiskeEgenskaber(terning)", "opgave8-90-5-AutomatiskeEgenskaber(terning)\opgave8-90-5-AutomatiskeEgenskaber(terning).csproj", "{2FA7FEB3-07A5-4A4F-BFC1-F40AE2BE00A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reflection", "reflection\reflection.csproj", "{7728A22D-EB30-4591-B85F-19ECB6E973C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reflection", "reflection\reflection.csproj", "{7728A22D-EB30-4591-B85F-19ECB6E973C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "readFileCSV", "readFileCSV\readFileCSV.csproj", "{37650539-A589-4E6A-9DB6-C7D9DAAD435F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "readFileCSV", "readFileCSV\readFileCSV.csproj", "{37650539-A589-4E6A-9DB6-C7D9DAAD435F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rod2", "rod2\rod2.csproj", "{C81893F3-903D-4659-BB12-FCEBDE995A5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rod2", "rod2\rod2.csproj", "{A70089C4-2972-4AA0-98E9-D046B7C7004D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rod3", "rod3\rod3.csproj", "{C3B6A404-90D8-4735-A426-77BA43E7A61A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opgave1-RegneMaskine", "Opgave1\Opgave1-RegneMaskine.csproj", "{7BDA6C5E-981A-41F0-B665-8B9A74788DD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opgave2-BrugAfDataTimeOgTimeSpan", "Opgave2-BrugAfDataTimeOgTimeSpan\Opgave2-BrugAfDataTimeOgTimeSpan.csproj", "{4A844C70-0F42-4716-A9EB-02DE11E3A473}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave3-48-1-BrugAfVariabler", "opgave3-BrugAfVariabler\opgave3-48-1-BrugAfVariabler.csproj", "{FBA9572A-E742-4D49-AADE-5C30633A4F6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rod", "rod\rod.csproj", "{FBD2F04A-2174-4565-A16A-8D45819624B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +39,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E4DD4354-F7BF-4C92-9DF6-B455293DB1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4DD4354-F7BF-4C92-9DF6-B455293DB1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4DD4354-F7BF-4C92-9DF6-B455293DB1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4DD4354-F7BF-4C92-9DF6-B455293DB1B1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B16AA97-E0A7-4A7F-9295-D1E4D327444C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B16AA97-E0A7-4A7F-9295-D1E4D327444C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B16AA97-E0A7-4A7F-9295-D1E4D327444C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -71,10 +75,30 @@ Global
 		{37650539-A589-4E6A-9DB6-C7D9DAAD435F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37650539-A589-4E6A-9DB6-C7D9DAAD435F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37650539-A589-4E6A-9DB6-C7D9DAAD435F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A70089C4-2972-4AA0-98E9-D046B7C7004D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A70089C4-2972-4AA0-98E9-D046B7C7004D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A70089C4-2972-4AA0-98E9-D046B7C7004D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A70089C4-2972-4AA0-98E9-D046B7C7004D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C81893F3-903D-4659-BB12-FCEBDE995A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81893F3-903D-4659-BB12-FCEBDE995A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81893F3-903D-4659-BB12-FCEBDE995A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81893F3-903D-4659-BB12-FCEBDE995A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B6A404-90D8-4735-A426-77BA43E7A61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B6A404-90D8-4735-A426-77BA43E7A61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B6A404-90D8-4735-A426-77BA43E7A61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B6A404-90D8-4735-A426-77BA43E7A61A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BDA6C5E-981A-41F0-B665-8B9A74788DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BDA6C5E-981A-41F0-B665-8B9A74788DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BDA6C5E-981A-41F0-B665-8B9A74788DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BDA6C5E-981A-41F0-B665-8B9A74788DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A844C70-0F42-4716-A9EB-02DE11E3A473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A844C70-0F42-4716-A9EB-02DE11E3A473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A844C70-0F42-4716-A9EB-02DE11E3A473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A844C70-0F42-4716-A9EB-02DE11E3A473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA9572A-E742-4D49-AADE-5C30633A4F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA9572A-E742-4D49-AADE-5C30633A4F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA9572A-E742-4D49-AADE-5C30633A4F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA9572A-E742-4D49-AADE-5C30633A4F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD2F04A-2174-4565-A16A-8D45819624B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD2F04A-2174-4565-A16A-8D45819624B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD2F04A-2174-4565-A16A-8D45819624B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD2F04A-2174-4565-A16A-8D45819624B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

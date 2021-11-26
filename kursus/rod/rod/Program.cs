@@ -1,6 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Humanizer;
+using System;
+using System.Globalization;
+using System.Text;
 
 namespace rod
 {
@@ -8,73 +9,68 @@ namespace rod
     {
         static void Main(string[] args)
         {
-
-            // nøgle = int, værdi = string
-            System.Collections.Generic.Dictionary<string, int> lst = new Dictionary<string, int>();
-            lst.Add("a", 1324);
-            lst.Add("b", 23);
-            lst.Add("c", 113);
-            foreach (var item in lst)
-            {
-                Console.WriteLine($"{item}, {item.Key}, {item.Value}");
-            }
-            int v = lst["b"];
-            Console.WriteLine($"v = {v}");
-
             Console.WriteLine("Hello World!");
 
-            Metode1("a", 10, true, "DK");
-            Metode1(alder: 10, erSmart: true, land: "DK", navn: "a");
+            int pris = 100;
+            DateTime dato = new DateTime(2018, 1, 1);
 
-            skriv("peter");
+            string res3 = $"Prisen er {pris:n2} pr {dato:dd-MM-yyyy}";
+            Console.WriteLine(res3);
 
-            void skriv(string a )
+            string a = null;
+            Console.WriteLine(a?.ToUpper());     // fejl
+            if (a != null)
             {
-                Console.WriteLine(a);
+                Console.WriteLine(a.ToUpper()); // ok
             }
 
+            a += "fdewf";
 
-            (int peter, double aghilas, string String) testTuble;
+            if (a != null)
+            {
+                Console.WriteLine(a.ToUpper()); // ok
+            }
+            Console.WriteLine(a?.ToUpper()); // ok
 
-            testTuble.aghilas = 103;
-            testTuble.peter = 10;
-            testTuble.String = "per";
+
+            string a1 = null;
+            string b = a1 ?? "";
+            Console.WriteLine(b.ToUpper());
+
+            StringBuilder test = new();
+            test.Append("dwd");
+            Console.WriteLine(test.ToString());
+
+            System.Threading.Thread.
+                CurrentThread.CurrentUICulture =
+                new CultureInfo("da-DK");
+
+            string _a = DateTime.Now.AddDays(-10).Humanize();
+            Console.WriteLine(_a);
+
+
+
+            Køn køn = Køn.mand;
+            
+            Console.WriteLine(Convert.ToInt32(køn));
+
+            switch (køn)
+            {
+                case Køn.mand:
+                    break;
+                case Køn.kvinde:
+                    break;
+            }
 
         }
     }
 
-        static (int v1, bool v2) Test()
-        {
-            if(DateTime.Now.Millisecond % 2 == 0)
-            {
-                return ( 1, true);
-            }
-
-            //return (1, true);
-            int fkfe = 0;
-            Console.WriteLine(fkfe);
-
-
-
-
-            return (1, true);
-
-        } // return 
-
-
-        static void Metode1(string navn, int alder, bool erSmart, string land)
-        {
-        }
-
-        
-        static void visFiler(string sti)
-        {
-            //...;
-            //se alle filer i folder
-
-        }
-
+    enum Køn
+    {
+        mand,
+        kvinde
     }
-
-
 }
+
+
+

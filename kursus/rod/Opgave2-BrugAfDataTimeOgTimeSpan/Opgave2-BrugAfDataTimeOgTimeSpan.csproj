@@ -3,10 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Opgave2_BrugAfDataTimeOgTimeSpan</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Humanizer" Version="2.13.14" />
-  </ItemGroup>
 
 </Project>

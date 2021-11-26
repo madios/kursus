@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e4dd4354-f7bf-4c92-9df6-b455293db1b1": {
+      "ProjectGuid": "e4dd4354-f7bf-4c92-9df6-b455293db1b1",
+      "DisplayName": "rod2",
+      "ColorIndex": 0
+    },
+    "8b16aa97-e0a7-4a7f-9295-d1e4d327444c": {
+      "ProjectGuid": "8b16aa97-e0a7-4a7f-9295-d1e4d327444c",
+      "DisplayName": "opgave4-60-5-RekursiveMetoder",
+      "ColorIndex": 1
+    },
+    "ea527c2e-7623-4ad1-bdb5-6a80df4ac9cc": {
+      "ProjectGuid": "ea527c2e-7623-4ad1-bdb5-6a80df4ac9cc",
+      "DisplayName": "opgave5-65-2",
+      "ColorIndex": 2
+    },
+    "7366c825-d10f-414a-a44e-e64cf2f013de": {
+      "ProjectGuid": "7366c825-d10f-414a-a44e-e64cf2f013de",
+      "DisplayName": "Opgave6-80-3-klasseDerReplæsentereEtBægerAFTerninger",
+      "ColorIndex": 3
+    },
+    "18508024-b031-48fa-becf-c82355893ec9": {
+      "ProjectGuid": "18508024-b031-48fa-becf-c82355893ec9",
+      "DisplayName": "callbackEvent",
+      "ColorIndex": 4
+    },
+    "125fbd83-c05e-4a68-a125-e742df7ddd34": {
+      "ProjectGuid": "125fbd83-c05e-4a68-a125-e742df7ddd34",
+      "DisplayName": "TestNull",
+      "ColorIndex": 5
+    },
+    "578144d2-dd6c-431b-bc9c-163bec0dc279": {
+      "ProjectGuid": "578144d2-dd6c-431b-bc9c-163bec0dc279",
+      "DisplayName": "Opgave7-90-1-TerningMedEgenskaber",
+      "ColorIndex": 6
+    },
+    "2fa7feb3-07a5-4a4f-bfc1-f40ae2be00a5": {
+      "ProjectGuid": "2fa7feb3-07a5-4a4f-bfc1-f40ae2be00a5",
+      "DisplayName": "opgave8-90-5-AutomatiskeEgenskaber(terning)",
+      "ColorIndex": 7
+    },
+    "7728a22d-eb30-4591-b85f-19ecb6e973c3": {
+      "ProjectGuid": "7728a22d-eb30-4591-b85f-19ecb6e973c3",
+      "DisplayName": "reflection",
+      "ColorIndex": 8
+    },
+    "37650539-a589-4e6a-9db6-c7d9daad435f": {
+      "ProjectGuid": "37650539-a589-4e6a-9db6-c7d9daad435f",
+      "DisplayName": "readFileCSV",
+      "ColorIndex": 9
+    },
+    "a70089c4-2972-4aa0-98e9-d046b7c7004d": {
+      "ProjectGuid": "a70089c4-2972-4aa0-98e9-d046b7c7004d",
+      "DisplayName": "rod3",
+      "ColorIndex": 10
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 11
+}
