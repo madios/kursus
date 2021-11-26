@@ -1,0 +1,285 @@
+konvcs202111@ti.dk
+xor
+www.cskursus.dk
+
+40103242 / michell@cronberg.dk
+
+task ikke threading
+
+Visual Studio 2022 community 
+
+IL code (bitkode), runtime
+JIT just in time compiler
+Decompilere
+.Net framework det gammel
+.Net Core det nye 
+.Net det nyeste 6, opdateres hvert år
+dotPeek
+ILSpy
+.Net MAUI kan bygges på ios og på android mac macOS Windows  
+BCL Basis class library, åbner en fil, taler med en database
+Pointer unsafe
+Struct->stack værdi - få data
+Class->Heap reference - meget data 90 % af gangene
+namespace NS1
+{
+    public class A { }
+    public class B { }
+    public struct C { }
+    public enum D { }
+    public delegate Action E();
+}
+
+Alle typer fem foreskellige ting
+nye filer til alle typer
+
+internal(private)/public
+Class C // internal som default
+
+hotkey Ctrl + K + D = Format code
+
+dotnet .\ConsoleApp1.dll    
+dotnet run
+
+var f = new int[] { 4, 3, 1, 6, 4, 3, 2, 6 }; // int[]
+var g = f.GroupBy(i => i); 
+
+static på type
+stringBuilder
+
+
+do
+{
+    // kode
+} while (DateTime.Now < tid);
+altid ind i
+
+go to 
+for (int y = 0; y < 10; y++)
+{
+    for (int x = 0; x < 10; x++)
+    {
+        if(x==5 && y == 5) {
+            goto ud;
+        }
+    }
+}
+ud:
+    Console.WriteLine("Færdig");
+
+class Hund er type.
+Hund h er instancen
+
+std::map;
+vector;
+refactor F2.
+
+Metode1("a", 10, true, "DK");
+Metode1(alder: 10, erSmart: true, land: "DK", navn: "a");
+
+            
+void Metode1(string navn, int alder, bool erSmart, string land)
+{
+}
+
+{
+	private static double Gange(double a, double b)
+	{
+    	return  a * b;
+	}
+
+	private static void Skriv(string t) => Console.WriteLine(t);
+}
+difference function ved at havde return som en double eller int
+
+            catch (System.IO.IOException ex) {  } catch (Exception ex)
+            { Console.WriteLine("Fejl " + ex.Message);      }
+
+ @ glemt \n
+RekusivMetode
+
+Extension extra metoder til eksiterer metoder
+
+TraceSouce
+NLog
+
+try catch finally 
+
+InnerException kan ikke konvertere tallet, men fejlen er måske kan ikke åbne filen
+
+logger ex.ToString() den tager innerException også
+
+ApplicationException ex = new ApplicationException(); smid din egen exception  -> det er smart
+
+int[] k = (int[])a.Clone();
+
+System.Array.Sort(k);
+return k[0];
+
+string csv = "1;5;7;65";
+string[] data = csv.Split(';');
+Console.WriteLine(string.Join(",", data));
+
+CommandLineArgumentsParser Nuget pakke til at hente parameter
+
+længere arrays
+System.Collections.Generic.List<string> lst = new List<string>();
+normal string [] perer = {0,0,4,5}
+
+std::map c# Dictionary<,>
+
+            System.Collections.Generic.Dictionary<string, int> lst = new Dictionary<string, int>();
+            lst.Add("a", 1324);
+            lst.Add("b", 23);
+            lst.Add("c", 113);
+            foreach (var item in lst)
+            {
+                Console.WriteLine($"{item}, {item.Key}, {item.Value}");
+            }
+            int v = lst["b"];
+
+
+
+get
+{
+   return this._værdi;
+}
+set
+{
+  this._værdi = value;
+}
+
+action event
++=
+
+classDiagram
+
+genbrug af kontruktor
+        public Person() : this("", 0)
+        {
+        }
+
+        public Person(string navn) : this(navn, 0)
+        {
+        }
+
+string? a; //nullable<bool> f; kan være null
+bool? s;
+
+propfull // prop  -  public string peter { get; set; }
+
+//Reflection kommer med navn i klasse, fx kopier alle de variabler der passer fra den ene klasse til den anden 
+             er godt i stedet for = = = =
+
+public int værdi {get; private set;}
+public int værdi {get; init;} værdien kan kun sætte i kontruktor
+
+Project//Template
+vsix -> new metode til at lave template
+
+4 objekter på alt ToString() er en af dem
+
+abstract polymofi så skal den være der.
+class MinKnap : Button {
+
+~Kunde() virker ikke, køre på en tråd.
+Brug den her i stedet
+class Kunde : IDisposable
+public void Dispose()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Tæl(Enumerable.Range(0, 5),
+                () =>
+                {
+                    if (DateTime.Now.DayOfWeek == DayOfWeek.Sunday)
+                        Console.ForegroundColor = ConsoleColor.Red;
+                },
+                () => Console.ForegroundColor = ConsoleColor.Gray,
+                Console.WriteLine);
+
+
+            // Blot eksempel på kald af funktionen med en anden
+            // nummerrække og referencer til andre skriv/farve funktioner
+            Tæl(Enumerable.Range(1, 10).Where(i => i % 2 == 0),
+                () =>
+                {
+                    if (DateTime.Now.DayOfWeek == DayOfWeek.Sunday)
+                        System.IO.File.AppendAllText(@"c:\temp\side.html", "<div class='red'>\r\n");
+                },
+                () => System.IO.File.AppendAllText(@"c:\temp\side.html", "<div class='gray'>\r\n"),
+                (t) => System.IO.File.AppendAllText(@"c:\temp\side.html", "\r\n" + t)
+            );
+
+
+        }
+
+        static void Tæl(IEnumerable<int> tal,
+          Action metodeTilAtSætteFarve,
+          Action metodeTilAtResetFarve,
+          Action<string> metodeTilAtSkrive)
+        {
+            metodeTilAtSkrive($"Starter med at tælle");
+            tal.ToList().ForEach((i) =>
+            {
+                metodeTilAtSætteFarve();
+                metodeTilAtSkrive(i.ToString());
+                metodeTilAtResetFarve();
+            });
+            metodeTilAtSkrive("Færdig med at tælle");
+        }
+    }
+}
+
+
+
+

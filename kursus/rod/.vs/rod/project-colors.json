@@ -60,7 +60,17 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "c81893f3-903d-4659-bb12-fcebde995a5e": {
+      "ProjectGuid": "c81893f3-903d-4659-bb12-fcebde995a5e",
+      "DisplayName": "rod2",
+      "ColorIndex": 11
+    },
+    "bc26b094-b431-46f9-8856-e021b068563e": {
+      "ProjectGuid": "bc26b094-b431-46f9-8856-e021b068563e",
+      "DisplayName": "Day3",
+      "ColorIndex": 12
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 13
 }

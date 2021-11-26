@@ -28,6 +28,8 @@ namespace rod
 
             skriv("peter");
 
+
+
             void skriv(string a )
             {
                 Console.WriteLine(a);
