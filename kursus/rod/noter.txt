@@ -188,6 +188,13 @@ class Kunde : IDisposable
 public void Dispose()
 
 
+System.IO.File.ReadAllTextAsync (tråd/ASync)
+await venter unden at låse tråden, når du får svar så forsætter hovedtråden efter await.
+
+Du skal have en async på function eller virker wait ikke.
+
+
+
 
 
 
